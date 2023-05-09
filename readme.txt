@@ -26,11 +26,8 @@ Some texts and links for support.
 
 == Changelog ==
 
+= 1.0.1 - 2023-05-09 =
+* Tweak - PHP 7.4 compatibility.
+
 = 1.0.0 - 2023-05-09 =
-* Add - blah blah
-* Fix - blah blah
-* Tweak - blah blah
-* Update - blah blah
-* Dev - blah blah
-* Feature - blah blah
-* Misc - blah blah
+* Initial release

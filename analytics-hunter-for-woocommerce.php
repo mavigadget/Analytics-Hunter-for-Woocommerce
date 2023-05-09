@@ -26,7 +26,7 @@ class WC_Analytics_Hunter_Loader {
     const PLUGIN_VERSION = '1.0.0';
 
     // Minimum PHP version required by this plugin.
-    const MINIMUM_PHP_VERSION = '8.2.0';
+    const MINIMUM_PHP_VERSION = '7.4.0';
 
     // Minimum WooCommerce version required by this plugin.
     const MINIMUM_WC_VERSION = '7.6.1';
