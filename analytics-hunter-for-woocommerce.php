@@ -5,7 +5,7 @@
  * Description:         Grow your business with Analytics Hunter! Use this official plugin to help analyze your business.
  * Version:             1.0.0
  * Requires at least:   6.2
- * Requires PHP:        8.2
+ * Requires PHP:        7.4
  * Author:              Analyticshunter
  * Author URI:          https://www.analyticshunter.com
  * License:             GPL-2.0+
