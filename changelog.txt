@@ -1,0 +1,10 @@
+*** Analytics Hunter for WooCommerce Changelog ***
+
+= 1.0.0 - 2023-05-09 =
+* Add - blah blah
+* Fix - blah blah
+* Tweak - blah blah
+* Update - blah blah
+* Dev - blah blah
+* Feature - blah blah
+* Misc - blah blah

@@ -1,0 +1,13 @@
+{
+    "name": "mavigadget/analytics-hunter-for-woocommerce",
+    "description": "Grow your business with Analytics Hunter! Use this official plugin to help analyze your business.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Mavigadget\\AnalyticsHunterForWoocommerce\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
