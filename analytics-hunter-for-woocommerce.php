@@ -239,7 +239,7 @@ class WC_Analytics_Hunter_Loader {
                     'error',
                     sprintf(
                     /* translators: %1$s - plugin name, %2$s - minimum WordPress version required, %3$s - update WordPress link open, %4$s - update WordPress link close */
-                        esc_html__( '%1$s requires WordPress version %2$s or higher. Please %3$supdate WordPress &raquo;%4$s', 'facebook-for-woocommerce' ),
+                        esc_html__( '%1$s requires WordPress version %2$s or higher. Please %3$supdate WordPress &raquo;%4$s', 'analytics-hunter-for-woocommerce' ),
                         '<strong>' . self::PLUGIN_NAME . '</strong>',
                         self::MINIMUM_WP_VERSION,
                         '<a href="' . esc_url( admin_url( 'update-core.php' ) ) . '">',
@@ -265,7 +265,7 @@ class WC_Analytics_Hunter_Loader {
                     $activation_url = wp_nonce_url( 'plugins.php?action=activate&amp;plugin=' . $plugin . '&amp;plugin_status=all&amp;paged=1&amp;s', 'activate-plugin_' . $plugin );
                     $message        = sprintf(
                     /* translators: %1$s - Plugin Name, %2$s - activate WooCommerce link open, %3$s - activate WooCommerce link close. */
-                        esc_html__( '%1$s requires WooCommerce to be activated. Please %2$sactivate WooCommerce%3$s.', 'facebook-for-woocommerce' ),
+                        esc_html__( '%1$s requires WooCommerce to be activated. Please %2$sactivate WooCommerce%3$s.', 'analytics-hunter-for-woocommerce' ),
                         '<strong>' . self::PLUGIN_NAME . '</strong>',
                         '<a href="' . esc_url( $activation_url ) . '">',
                         '</a>'
@@ -282,7 +282,7 @@ class WC_Analytics_Hunter_Loader {
                     $install_url = wp_nonce_url( self_admin_url( 'update.php?action=install-plugin&plugin=woocommerce' ), 'install-plugin_woocommerce' );
                     $message     = sprintf(
                     /* translators: %1$s - Plugin Name, %2$s - install WooCommerce link open, %3$s - install WooCommerce link close. */
-                        esc_html__( '%1$s requires WooCommerce to be installed and activated. Please %2$sinstall WooCommerce%3$s.', 'facebook-for-woocommerce' ),
+                        esc_html__( '%1$s requires WooCommerce to be installed and activated. Please %2$sinstall WooCommerce%3$s.', 'analytics-hunter-for-woocommerce' ),
                         '<strong>' . self::PLUGIN_NAME . '</strong>',
                         '<a href="' . esc_url( $install_url ) . '">',
                         '</a>'
@@ -302,7 +302,7 @@ class WC_Analytics_Hunter_Loader {
                     'error',
                     sprintf(
                     /* translators: %1$s - Plugin Name, %2$s - minimum WooCommerce version, %3$s - update WooCommerce link open, %4$s - update WooCommerce link close, %5$s - download minimum WooCommerce link open, %6$s - download minimum WooCommerce link close. */
-                        esc_html__( '%1$s requires WooCommerce version %2$s or higher. Please %3$supdate WooCommerce%4$s to the latest version, or %5$sdownload the minimum required version &raquo;%6$s', 'facebook-for-woocommerce' ),
+                        esc_html__( '%1$s requires WooCommerce version %2$s or higher. Please %3$supdate WooCommerce%4$s to the latest version, or %5$sdownload the minimum required version &raquo;%6$s', 'analytics-hunter-for-woocommerce' ),
                         '<strong>' . self::PLUGIN_NAME . '</strong>',
                         self::MINIMUM_WC_VERSION,
                         '<a href="' . esc_url( $update_url ) . '">',
