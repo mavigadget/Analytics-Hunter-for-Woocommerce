@@ -6,7 +6,7 @@ class WC_Analyticshunter{
     /** @var string the plugin version */
     const VERSION = WC_Analytics_Hunter_Loader::PLUGIN_VERSION;
 
-    /** @var string for backwards compatibility TODO: remove this in v2.0.0 {CW 2020-02-06} */
+    /** @var string for backwards compatibility */
     const PLUGIN_VERSION = self::VERSION;
 
     /** @var string the plugin ID */
